@@ -1,0 +1,400 @@
+# Logfile created on 2015-05-14 11:26:06 +0530 by logger.rb/31641
+I, [2015-05-14T11:26:06.110351 #572]  INFO -- : config.rb:167:in `loadconfig' The Marionette Collective version 2.8.1 started by C:/marionette-collective/bin/mcollectived using config file C:\marionette-collective\etc\server.cfg
+I, [2015-05-14T11:26:06.110351 #572]  INFO -- : mcollectived:64:in `<main>' The Marionette Collective 2.8.1 started logging at info level
+I, [2015-05-14T11:26:10.185546 #572]  INFO -- : rabbitmq.rb:106:in `initialize' RabbitMQ connector initialized.  Using stomp-gem 1.3.4
+I, [2015-05-14T11:26:10.185546 #572]  INFO -- : rabbitmq.rb:201:in `connection_headers' Connecting without STOMP 1.1 heartbeats, consider setting plugin.rabbitmq.heartbeat_interval
+I, [2015-05-14T11:26:11.544921 #572]  INFO -- : rabbitmq.rb:35:in `on_ssl_connecting' Establishing SSL session with stomp+ssl://mcollective@devops2:6164
+I, [2015-05-14T11:26:14.350585 #572]  INFO -- : rabbitmq.rb:40:in `on_ssl_connected' SSL session established with stomp+ssl://mcollective@devops2:6164
+I, [2015-05-14T11:26:14.858398 #572]  INFO -- : rabbitmq.rb:15:in `on_connected' Connected to stomp+ssl://mcollective@devops2:6164
+W, [2015-05-14T11:30:40.818359 #572]  WARN -- : runner.rb:206:in `rescue in block in receiver_thread' Failed to handle message: Could not find a public key for mcoclient in C:\marionette-collective\clients/mcoclient.pem - RuntimeError
+
+W, [2015-05-14T11:30:40.818359 #572]  WARN -- : runner.rb:207:in `rescue in block in receiver_thread' C:/marionette-collective/lib/mcollective/security/ssl.rb:259:in `public_key_file'
+	C:/marionette-collective/lib/mcollective/security/ssl.rb:177:in `validrequest?'
+	C:/marionette-collective/lib/mcollective/security/ssl.rb:95:in `decodemsg'
+	C:/marionette-collective/lib/mcollective/message.rb:179:in `decode!'
+	C:/marionette-collective/lib/mcollective/runner.rb:230:in `receive'
+	C:/marionette-collective/lib/mcollective/runner.rb:189:in `block in receiver_thread'
+	C:/marionette-collective/lib/mcollective/runner.rb:187:in `loop'
+	C:/marionette-collective/lib/mcollective/runner.rb:187:in `receiver_thread'
+	C:/marionette-collective/lib/mcollective/runner.rb:142:in `block in start_receiver_thread'
+W, [2015-05-14T11:35:11.585937 #572]  WARN -- : runner.rb:206:in `rescue in block in receiver_thread' Failed to handle message: Could not find a public key for mcoclient in C:\marionette-collective\clients/mcoclient.pem - RuntimeError
+
+W, [2015-05-14T11:35:11.585937 #572]  WARN -- : runner.rb:207:in `rescue in block in receiver_thread' C:/marionette-collective/lib/mcollective/security/ssl.rb:259:in `public_key_file'
+	C:/marionette-collective/lib/mcollective/security/ssl.rb:177:in `validrequest?'
+	C:/marionette-collective/lib/mcollective/security/ssl.rb:95:in `decodemsg'
+	C:/marionette-collective/lib/mcollective/message.rb:179:in `decode!'
+	C:/marionette-collective/lib/mcollective/runner.rb:230:in `receive'
+	C:/marionette-collective/lib/mcollective/runner.rb:189:in `block in receiver_thread'
+	C:/marionette-collective/lib/mcollective/runner.rb:187:in `loop'
+	C:/marionette-collective/lib/mcollective/runner.rb:187:in `receiver_thread'
+	C:/marionette-collective/lib/mcollective/runner.rb:142:in `block in start_receiver_thread'
+I, [2015-05-14T11:39:15.299804 #572]  INFO -- : windows_daemon.rb:31:in `service_stop' Windows service stopping
+I, [2015-05-14T11:39:17.177734 #2404]  INFO -- : config.rb:167:in `loadconfig' The Marionette Collective version 2.8.1 started by C:/marionette-collective/bin/mcollectived using config file C:\marionette-collective\etc\server.cfg
+I, [2015-05-14T11:39:17.178710 #2404]  INFO -- : mcollectived:64:in `<main>' The Marionette Collective 2.8.1 started logging at info level
+I, [2015-05-14T11:39:21.233398 #2404]  INFO -- : rabbitmq.rb:106:in `initialize' RabbitMQ connector initialized.  Using stomp-gem 1.3.4
+I, [2015-05-14T11:39:21.233398 #2404]  INFO -- : rabbitmq.rb:201:in `connection_headers' Connecting without STOMP 1.1 heartbeats, consider setting plugin.rabbitmq.heartbeat_interval
+I, [2015-05-14T11:39:22.567382 #2404]  INFO -- : rabbitmq.rb:35:in `on_ssl_connecting' Establishing SSL session with stomp+ssl://mcollective@devops2:6164
+I, [2015-05-14T11:39:24.254882 #2404]  INFO -- : rabbitmq.rb:40:in `on_ssl_connected' SSL session established with stomp+ssl://mcollective@devops2:6164
+I, [2015-05-14T11:39:24.637695 #2404]  INFO -- : rabbitmq.rb:15:in `on_connected' Connected to stomp+ssl://mcollective@devops2:6164
+I, [2015-05-14T11:44:49.585937 #2404]  INFO -- : windows_daemon.rb:31:in `service_stop' Windows service stopping
+I, [2015-05-14T11:44:51.447265 #1624]  INFO -- : config.rb:167:in `loadconfig' The Marionette Collective version 2.8.1 started by C:/marionette-collective/bin/mcollectived using config file C:\marionette-collective\etc\server.cfg
+I, [2015-05-14T11:44:51.448242 #1624]  INFO -- : mcollectived:64:in `<main>' The Marionette Collective 2.8.1 started logging at info level
+I, [2015-05-14T11:44:55.503906 #1624]  INFO -- : rabbitmq.rb:106:in `initialize' RabbitMQ connector initialized.  Using stomp-gem 1.3.4
+I, [2015-05-14T11:44:55.503906 #1624]  INFO -- : rabbitmq.rb:201:in `connection_headers' Connecting without STOMP 1.1 heartbeats, consider setting plugin.rabbitmq.heartbeat_interval
+I, [2015-05-14T11:44:56.820312 #1624]  INFO -- : rabbitmq.rb:35:in `on_ssl_connecting' Establishing SSL session with stomp+ssl://mcollective@devops2:6164
+I, [2015-05-14T11:44:58.417968 #1624]  INFO -- : rabbitmq.rb:40:in `on_ssl_connected' SSL session established with stomp+ssl://mcollective@devops2:6164
+I, [2015-05-14T11:44:58.792968 #1624]  INFO -- : rabbitmq.rb:15:in `on_connected' Connected to stomp+ssl://mcollective@devops2:6164
+W, [2015-05-14T11:46:39.601562 #1624]  WARN -- : runner.rb:206:in `rescue in block in receiver_thread' Failed to handle message: Could not find a public key for mcoclient in C:\marionette-collective\clients/mcoclient.pem - RuntimeError
+
+W, [2015-05-14T11:46:39.601562 #1624]  WARN -- : runner.rb:207:in `rescue in block in receiver_thread' C:/marionette-collective/lib/mcollective/security/ssl.rb:259:in `public_key_file'
+	C:/marionette-collective/lib/mcollective/security/ssl.rb:177:in `validrequest?'
+	C:/marionette-collective/lib/mcollective/security/ssl.rb:95:in `decodemsg'
+	C:/marionette-collective/lib/mcollective/message.rb:179:in `decode!'
+	C:/marionette-collective/lib/mcollective/runner.rb:230:in `receive'
+	C:/marionette-collective/lib/mcollective/runner.rb:189:in `block in receiver_thread'
+	C:/marionette-collective/lib/mcollective/runner.rb:187:in `loop'
+	C:/marionette-collective/lib/mcollective/runner.rb:187:in `receiver_thread'
+	C:/marionette-collective/lib/mcollective/runner.rb:142:in `block in start_receiver_thread'
+I, [2015-05-14T11:56:26.050781 #1624]  INFO -- : windows_daemon.rb:31:in `service_stop' Windows service stopping
+I, [2015-05-14T11:56:27.909179 #2576]  INFO -- : config.rb:167:in `loadconfig' The Marionette Collective version 2.8.1 started by C:/marionette-collective/bin/mcollectived using config file C:\marionette-collective\etc\server.cfg
+I, [2015-05-14T11:56:27.910156 #2576]  INFO -- : mcollectived:64:in `<main>' The Marionette Collective 2.8.1 started logging at info level
+I, [2015-05-14T11:56:31.973632 #2576]  INFO -- : rabbitmq.rb:106:in `initialize' RabbitMQ connector initialized.  Using stomp-gem 1.3.4
+I, [2015-05-14T11:56:31.973632 #2576]  INFO -- : rabbitmq.rb:201:in `connection_headers' Connecting without STOMP 1.1 heartbeats, consider setting plugin.rabbitmq.heartbeat_interval
+I, [2015-05-14T11:56:33.316406 #2576]  INFO -- : rabbitmq.rb:35:in `on_ssl_connecting' Establishing SSL session with stomp+ssl://mcollective@devops2:6164
+I, [2015-05-14T11:56:34.980468 #2576]  INFO -- : rabbitmq.rb:40:in `on_ssl_connected' SSL session established with stomp+ssl://mcollective@devops2:6164
+I, [2015-05-14T11:56:35.371093 #2576]  INFO -- : rabbitmq.rb:15:in `on_connected' Connected to stomp+ssl://mcollective@devops2:6164
+W, [2015-05-14T11:59:01.897460 #2576]  WARN -- : runner.rb:206:in `rescue in block in receiver_thread' Failed to handle message: Could not find a public key for mcoclient in C:\marionette-collective\clients\/mcoclient.pem - RuntimeError
+
+W, [2015-05-14T11:59:01.897460 #2576]  WARN -- : runner.rb:207:in `rescue in block in receiver_thread' C:/marionette-collective/lib/mcollective/security/ssl.rb:259:in `public_key_file'
+	C:/marionette-collective/lib/mcollective/security/ssl.rb:177:in `validrequest?'
+	C:/marionette-collective/lib/mcollective/security/ssl.rb:95:in `decodemsg'
+	C:/marionette-collective/lib/mcollective/message.rb:179:in `decode!'
+	C:/marionette-collective/lib/mcollective/runner.rb:230:in `receive'
+	C:/marionette-collective/lib/mcollective/runner.rb:189:in `block in receiver_thread'
+	C:/marionette-collective/lib/mcollective/runner.rb:187:in `loop'
+	C:/marionette-collective/lib/mcollective/runner.rb:187:in `receiver_thread'
+	C:/marionette-collective/lib/mcollective/runner.rb:142:in `block in start_receiver_thread'
+I, [2015-05-14T12:02:28.025390 #2576]  INFO -- : windows_daemon.rb:31:in `service_stop' Windows service stopping
+I, [2015-05-14T12:02:29.897460 #3020]  INFO -- : config.rb:167:in `loadconfig' The Marionette Collective version 2.8.1 started by C:/marionette-collective/bin/mcollectived using config file C:\marionette-collective\etc\server.cfg
+I, [2015-05-14T12:02:29.897460 #3020]  INFO -- : mcollectived:64:in `<main>' The Marionette Collective 2.8.1 started logging at info level
+I, [2015-05-14T12:02:33.961914 #3020]  INFO -- : rabbitmq.rb:106:in `initialize' RabbitMQ connector initialized.  Using stomp-gem 1.3.4
+I, [2015-05-14T12:02:33.961914 #3020]  INFO -- : rabbitmq.rb:201:in `connection_headers' Connecting without STOMP 1.1 heartbeats, consider setting plugin.rabbitmq.heartbeat_interval
+I, [2015-05-14T12:02:35.301757 #3020]  INFO -- : rabbitmq.rb:35:in `on_ssl_connecting' Establishing SSL session with stomp+ssl://mcollective@devops2:6164
+I, [2015-05-14T12:02:36.924804 #3020]  INFO -- : rabbitmq.rb:40:in `on_ssl_connected' SSL session established with stomp+ssl://mcollective@devops2:6164
+I, [2015-05-14T12:02:37.299804 #3020]  INFO -- : rabbitmq.rb:15:in `on_connected' Connected to stomp+ssl://mcollective@devops2:6164
+I, [2015-05-14T12:10:46.073242 #3020]  INFO -- : windows_daemon.rb:31:in `service_stop' Windows service stopping
+E, [2015-05-14T12:10:47.932617 #340] ERROR -- : pluginmanager.rb:171:in `rescue in loadclass' Failed to load Mcollective::Registration::Meta: cannot load such file -- mcollective/registration/meta.rb
+E, [2015-05-14T12:10:55.748046 #2516] ERROR -- : pluginmanager.rb:171:in `rescue in loadclass' Failed to load Mcollective::Registration::Meta: cannot load such file -- mcollective/registration/meta.rb
+E, [2015-05-14T12:11:33.620117 #332] ERROR -- : pluginmanager.rb:171:in `rescue in loadclass' Failed to load Mcollective::Registration::Meta: cannot load such file -- mcollective/registration/meta.rb
+I, [2015-05-14T12:12:22.265625 #1976]  INFO -- : config.rb:167:in `loadconfig' The Marionette Collective version 2.8.1 started by C:/marionette-collective/bin/mcollectived using config file C:\marionette-collective\etc\server.cfg
+I, [2015-05-14T12:12:22.266601 #1976]  INFO -- : mcollectived:64:in `<main>' The Marionette Collective 2.8.1 started logging at info level
+I, [2015-05-14T12:12:26.325195 #1976]  INFO -- : rabbitmq.rb:106:in `initialize' RabbitMQ connector initialized.  Using stomp-gem 1.3.4
+I, [2015-05-14T12:12:26.325195 #1976]  INFO -- : rabbitmq.rb:201:in `connection_headers' Connecting without STOMP 1.1 heartbeats, consider setting plugin.rabbitmq.heartbeat_interval
+I, [2015-05-14T12:12:27.609375 #1976]  INFO -- : rabbitmq.rb:35:in `on_ssl_connecting' Establishing SSL session with stomp+ssl://mcollective@devops2:6164
+I, [2015-05-14T12:12:29.426757 #1976]  INFO -- : rabbitmq.rb:40:in `on_ssl_connected' SSL session established with stomp+ssl://mcollective@devops2:6164
+I, [2015-05-14T12:12:29.801757 #1976]  INFO -- : rabbitmq.rb:15:in `on_connected' Connected to stomp+ssl://mcollective@devops2:6164
+E, [2015-05-14T12:13:30.971679 #1976] ERROR -- : agents.rb:138:in `rescue in block in dispatch' Execution of discovery failed: Could not find key C:\marionette-collective\server_private.pem
+E, [2015-05-14T12:13:30.971679 #1976] ERROR -- : agents.rb:139:in `rescue in block in dispatch' C:/marionette-collective/lib/mcollective/ssl.rb:250:in `read_key'
+		C:/marionette-collective/lib/mcollective/ssl.rb:42:in `initialize'
+		C:/marionette-collective/lib/mcollective/security/ssl.rb:315:in `new'
+		C:/marionette-collective/lib/mcollective/security/ssl.rb:315:in `sign'
+		C:/marionette-collective/lib/mcollective/security/ssl.rb:309:in `makehash'
+		C:/marionette-collective/lib/mcollective/security/ssl.rb:144:in `encodereply'
+		C:/marionette-collective/lib/mcollective/message.rb:140:in `encode!'
+		C:/marionette-collective/lib/mcollective/runner.rb:239:in `reply'
+		C:/marionette-collective/lib/mcollective/runner.rb:219:in `block in agentmsg'
+		C:/marionette-collective/lib/mcollective/agents.rb:132:in `block (2 levels) in dispatch'
+		C:/Ruby193/lib/ruby/1.9.1/timeout.rb:69:in `timeout'
+		C:/marionette-collective/lib/mcollective/agents.rb:125:in `block in dispatch'
+E, [2015-05-14T12:13:45.266601 #1976] ERROR -- : agents.rb:138:in `rescue in block in dispatch' Execution of discovery failed: Could not find key C:\marionette-collective\server_private.pem
+E, [2015-05-14T12:13:45.266601 #1976] ERROR -- : agents.rb:139:in `rescue in block in dispatch' C:/marionette-collective/lib/mcollective/ssl.rb:250:in `read_key'
+		C:/marionette-collective/lib/mcollective/ssl.rb:42:in `initialize'
+		C:/marionette-collective/lib/mcollective/security/ssl.rb:315:in `new'
+		C:/marionette-collective/lib/mcollective/security/ssl.rb:315:in `sign'
+		C:/marionette-collective/lib/mcollective/security/ssl.rb:309:in `makehash'
+		C:/marionette-collective/lib/mcollective/security/ssl.rb:144:in `encodereply'
+		C:/marionette-collective/lib/mcollective/message.rb:140:in `encode!'
+		C:/marionette-collective/lib/mcollective/runner.rb:239:in `reply'
+		C:/marionette-collective/lib/mcollective/runner.rb:219:in `block in agentmsg'
+		C:/marionette-collective/lib/mcollective/agents.rb:132:in `block (2 levels) in dispatch'
+		C:/Ruby193/lib/ruby/1.9.1/timeout.rb:69:in `timeout'
+		C:/marionette-collective/lib/mcollective/agents.rb:125:in `block in dispatch'
+I, [2015-05-14T12:15:24.649414 #1976]  INFO -- : windows_daemon.rb:31:in `service_stop' Windows service stopping
+I, [2015-05-14T12:15:26.530273 #768]  INFO -- : config.rb:167:in `loadconfig' The Marionette Collective version 2.8.1 started by C:/marionette-collective/bin/mcollectived using config file C:\marionette-collective\etc\server.cfg
+I, [2015-05-14T12:15:26.531250 #768]  INFO -- : mcollectived:64:in `<main>' The Marionette Collective 2.8.1 started logging at info level
+I, [2015-05-14T12:15:30.583007 #768]  INFO -- : rabbitmq.rb:106:in `initialize' RabbitMQ connector initialized.  Using stomp-gem 1.3.4
+I, [2015-05-14T12:15:30.583007 #768]  INFO -- : rabbitmq.rb:201:in `connection_headers' Connecting without STOMP 1.1 heartbeats, consider setting plugin.rabbitmq.heartbeat_interval
+I, [2015-05-14T12:15:31.997070 #768]  INFO -- : rabbitmq.rb:35:in `on_ssl_connecting' Establishing SSL session with stomp+ssl://mcollective@devops2:6164
+I, [2015-05-14T12:15:33.631835 #768]  INFO -- : rabbitmq.rb:40:in `on_ssl_connected' SSL session established with stomp+ssl://mcollective@devops2:6164
+I, [2015-05-14T12:15:34.006835 #768]  INFO -- : rabbitmq.rb:15:in `on_connected' Connected to stomp+ssl://mcollective@devops2:6164
+I, [2015-05-14T12:37:42.630859 #768]  INFO -- : windows_daemon.rb:31:in `service_stop' Windows service stopping
+E, [2015-05-14T12:37:44.530273 #3820] ERROR -- : pluginmanager.rb:171:in `rescue in loadclass' Failed to load Mcollective::Registration::Meta: cannot load such file -- mcollective/registration/meta.rb
+I, [2015-05-14T12:39:06.189453 #3708]  INFO -- : config.rb:167:in `loadconfig' The Marionette Collective version 2.8.1 started by C:/marionette-collective/bin/mcollectived using config file C:\marionette-collective\etc\server.cfg
+I, [2015-05-14T12:39:06.190429 #3708]  INFO -- : mcollectived:64:in `<main>' The Marionette Collective 2.8.1 started logging at info level
+I, [2015-05-14T12:39:10.256835 #3708]  INFO -- : rabbitmq.rb:106:in `initialize' RabbitMQ connector initialized.  Using stomp-gem 1.3.4
+I, [2015-05-14T12:39:10.256835 #3708]  INFO -- : rabbitmq.rb:201:in `connection_headers' Connecting without STOMP 1.1 heartbeats, consider setting plugin.rabbitmq.heartbeat_interval
+I, [2015-05-14T12:39:11.539062 #3708]  INFO -- : rabbitmq.rb:35:in `on_ssl_connecting' Establishing SSL session with stomp+ssl://mcollective@devops2:6164
+I, [2015-05-14T12:39:13.328125 #3708]  INFO -- : rabbitmq.rb:40:in `on_ssl_connected' SSL session established with stomp+ssl://mcollective@devops2:6164
+I, [2015-05-14T12:39:13.890625 #3708]  INFO -- : rabbitmq.rb:15:in `on_connected' Connected to stomp+ssl://mcollective@devops2:6164
+E, [2015-05-14T12:39:13.914062 #3708] ERROR -- : yaml_facts.rb:31:in `rescue in block in load_facts_from_source' Failed to load yaml facts from C:\marionette-collective\etc\facts.yaml: RuntimeError: Can't find YAML file to load: C:\marionette-collective\etc\facts.yaml
+E, [2015-05-14T12:39:13.914062 #3708] ERROR -- : base.rb:45:in `rescue in block in get_fact' Failed to load facts: RuntimeError: Got empty facts
+I, [2015-05-14T12:39:45.349609 #3708]  INFO -- : windows_daemon.rb:31:in `service_stop' Windows service stopping
+I, [2015-05-14T12:39:47.260742 #1700]  INFO -- : config.rb:167:in `loadconfig' The Marionette Collective version 2.8.1 started by C:/marionette-collective/bin/mcollectived using config file C:\marionette-collective\etc\server.cfg
+I, [2015-05-14T12:39:47.261718 #1700]  INFO -- : mcollectived:64:in `<main>' The Marionette Collective 2.8.1 started logging at info level
+I, [2015-05-14T12:39:51.322265 #1700]  INFO -- : rabbitmq.rb:106:in `initialize' RabbitMQ connector initialized.  Using stomp-gem 1.3.4
+I, [2015-05-14T12:39:51.330078 #1700]  INFO -- : rabbitmq.rb:201:in `connection_headers' Connecting without STOMP 1.1 heartbeats, consider setting plugin.rabbitmq.heartbeat_interval
+I, [2015-05-14T12:39:52.610351 #1700]  INFO -- : rabbitmq.rb:35:in `on_ssl_connecting' Establishing SSL session with stomp+ssl://mcollective@devops2:6164
+I, [2015-05-14T12:39:54.454101 #1700]  INFO -- : rabbitmq.rb:40:in `on_ssl_connected' SSL session established with stomp+ssl://mcollective@devops2:6164
+I, [2015-05-14T12:39:54.860351 #1700]  INFO -- : rabbitmq.rb:15:in `on_connected' Connected to stomp+ssl://mcollective@devops2:6164
+E, [2015-05-14T12:39:54.883789 #1700] ERROR -- : yaml_facts.rb:31:in `rescue in block in load_facts_from_source' Failed to load yaml facts from C:\marionette-collective\etc\facts.yaml: RuntimeError: Can't find YAML file to load: C:\marionette-collective\etc\facts.yaml
+E, [2015-05-14T12:39:54.883789 #1700] ERROR -- : base.rb:45:in `rescue in block in get_fact' Failed to load facts: RuntimeError: Got empty facts
+I, [2015-05-14T12:43:17.064453 #1700]  INFO -- : windows_daemon.rb:31:in `service_stop' Windows service stopping
+I, [2015-05-14T12:43:18.961914 #3748]  INFO -- : config.rb:167:in `loadconfig' The Marionette Collective version 2.8.1 started by C:/marionette-collective/bin/mcollectived using config file C:\marionette-collective\etc\server.cfg
+I, [2015-05-14T12:43:18.961914 #3748]  INFO -- : mcollectived:64:in `<main>' The Marionette Collective 2.8.1 started logging at info level
+I, [2015-05-14T12:43:23.014648 #3748]  INFO -- : rabbitmq.rb:106:in `initialize' RabbitMQ connector initialized.  Using stomp-gem 1.3.4
+I, [2015-05-14T12:43:23.014648 #3748]  INFO -- : rabbitmq.rb:201:in `connection_headers' Connecting without STOMP 1.1 heartbeats, consider setting plugin.rabbitmq.heartbeat_interval
+I, [2015-05-14T12:43:24.302734 #3748]  INFO -- : rabbitmq.rb:35:in `on_ssl_connecting' Establishing SSL session with stomp+ssl://mcollective@devops2:6164
+I, [2015-05-14T12:43:26.061523 #3748]  INFO -- : rabbitmq.rb:40:in `on_ssl_connected' SSL session established with stomp+ssl://mcollective@devops2:6164
+I, [2015-05-14T12:43:26.436523 #3748]  INFO -- : rabbitmq.rb:15:in `on_connected' Connected to stomp+ssl://mcollective@devops2:6164
+E, [2015-05-14T12:43:26.459960 #3748] ERROR -- : yaml_facts.rb:31:in `rescue in block in load_facts_from_source' Failed to load yaml facts from C:\marionette-collective\etc\facts.yaml: RuntimeError: Can't find YAML file to load: C:\marionette-collective\etc\facts.yaml
+E, [2015-05-14T12:43:26.459960 #3748] ERROR -- : base.rb:45:in `rescue in block in get_fact' Failed to load facts: RuntimeError: Got empty facts
+E, [2015-05-14T12:48:26.540039 #3748] ERROR -- : base.rb:45:in `rescue in block in get_fact' Failed to load facts: Errno::ENOENT: No such file or directory - C:\marionette-collective\etc\facts.yaml
+E, [2015-05-14T12:53:26.703125 #3748] ERROR -- : base.rb:45:in `rescue in block in get_fact' Failed to load facts: Errno::ENOENT: No such file or directory - C:\marionette-collective\etc\facts.yaml
+I, [2015-05-14T12:56:08.730468 #3748]  INFO -- : windows_daemon.rb:31:in `service_stop' Windows service stopping
+E, [2015-05-14T12:56:10.538085 #3852] ERROR -- : pluginmanager.rb:171:in `rescue in loadclass' Failed to load Mcollective::Facts::Facter_facts: cannot load such file -- mcollective/facts/facter_facts.rb
+E, [2015-05-14T12:56:27.908203 #3016] ERROR -- : pluginmanager.rb:171:in `rescue in loadclass' Failed to load Mcollective::Facts::Facter_facts: cannot load such file -- mcollective/facts/facter_facts.rb
+I, [2015-05-14T12:57:21.436523 #2556]  INFO -- : config.rb:167:in `loadconfig' The Marionette Collective version 2.8.1 started by C:/marionette-collective/bin/mcollectived using config file C:\marionette-collective\etc\server.cfg
+I, [2015-05-14T12:57:21.436523 #2556]  INFO -- : mcollectived:64:in `<main>' The Marionette Collective 2.8.1 started logging at info level
+I, [2015-05-14T12:57:25.500976 #2556]  INFO -- : rabbitmq.rb:106:in `initialize' RabbitMQ connector initialized.  Using stomp-gem 1.3.4
+I, [2015-05-14T12:57:25.500976 #2556]  INFO -- : rabbitmq.rb:201:in `connection_headers' Connecting without STOMP 1.1 heartbeats, consider setting plugin.rabbitmq.heartbeat_interval
+I, [2015-05-14T12:57:26.798828 #2556]  INFO -- : rabbitmq.rb:35:in `on_ssl_connecting' Establishing SSL session with stomp+ssl://mcollective@devops2:6164
+I, [2015-05-14T12:57:28.792968 #2556]  INFO -- : rabbitmq.rb:40:in `on_ssl_connected' SSL session established with stomp+ssl://mcollective@devops2:6164
+I, [2015-05-14T12:57:29.285156 #2556]  INFO -- : rabbitmq.rb:15:in `on_connected' Connected to stomp+ssl://mcollective@devops2:6164
+E, [2015-05-14T12:57:29.308593 #2556] ERROR -- : base.rb:45:in `rescue in block in get_fact' Failed to load facts: NoMethodError: undefined method `split' for nil:NilClass
+E, [2015-05-14T13:02:29.389648 #2556] ERROR -- : base.rb:45:in `rescue in block in get_fact' Failed to load facts: NoMethodError: undefined method `split' for nil:NilClass
+E, [2015-05-14T13:07:29.493164 #2556] ERROR -- : base.rb:45:in `rescue in block in get_fact' Failed to load facts: NoMethodError: undefined method `split' for nil:NilClass
+E, [2015-05-14T13:08:17.186523 #2556] ERROR -- : rabbitmq.rb:30:in `on_miscerr' Unexpected error on connection stomp+ssl://mcollective@devops2:6164: es_oldrecv: receive failed: An existing connection was forcibly closed by the remote host.
+I, [2015-05-14T13:08:17.194335 #2556]  INFO -- : rabbitmq.rb:35:in `on_ssl_connecting' Establishing SSL session with stomp+ssl://mcollective@devops2:6164
+E, [2015-05-14T13:08:38.230468 #2556] ERROR -- : rabbitmq.rb:45:in `on_ssl_connectfail' SSL session creation with stomp+ssl://mcollective@devops2:6164 failed: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. - connect(2)
+I, [2015-05-14T13:08:38.230468 #2556]  INFO -- : rabbitmq.rb:25:in `on_connectfail' TCP Connection to stomp+ssl://mcollective@devops2:6164 failed on attempt 0
+I, [2015-05-14T13:08:38.246093 #2556]  INFO -- : rabbitmq.rb:35:in `on_ssl_connecting' Establishing SSL session with stomp+ssl://mcollective@devops2:6164
+E, [2015-05-14T13:08:59.277343 #2556] ERROR -- : rabbitmq.rb:45:in `on_ssl_connectfail' SSL session creation with stomp+ssl://mcollective@devops2:6164 failed: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. - connect(2)
+I, [2015-05-14T13:08:59.277343 #2556]  INFO -- : rabbitmq.rb:25:in `on_connectfail' TCP Connection to stomp+ssl://mcollective@devops2:6164 failed on attempt 1
+I, [2015-05-14T13:08:59.300781 #2556]  INFO -- : rabbitmq.rb:35:in `on_ssl_connecting' Establishing SSL session with stomp+ssl://mcollective@devops2:6164
+E, [2015-05-14T13:09:20.308593 #2556] ERROR -- : rabbitmq.rb:45:in `on_ssl_connectfail' SSL session creation with stomp+ssl://mcollective@devops2:6164 failed: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. - connect(2)
+I, [2015-05-14T13:09:20.308593 #2556]  INFO -- : rabbitmq.rb:25:in `on_connectfail' TCP Connection to stomp+ssl://mcollective@devops2:6164 failed on attempt 2
+I, [2015-05-14T13:09:20.355468 #2556]  INFO -- : rabbitmq.rb:35:in `on_ssl_connecting' Establishing SSL session with stomp+ssl://mcollective@devops2:6164
+E, [2015-05-14T13:09:41.299804 #2556] ERROR -- : rabbitmq.rb:45:in `on_ssl_connectfail' SSL session creation with stomp+ssl://mcollective@devops2:6164 failed: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. - connect(2)
+I, [2015-05-14T13:09:41.299804 #2556]  INFO -- : rabbitmq.rb:25:in `on_connectfail' TCP Connection to stomp+ssl://mcollective@devops2:6164 failed on attempt 3
+I, [2015-05-14T13:09:41.385742 #2556]  INFO -- : rabbitmq.rb:35:in `on_ssl_connecting' Establishing SSL session with stomp+ssl://mcollective@devops2:6164
+E, [2015-05-14T13:10:02.401367 #2556] ERROR -- : rabbitmq.rb:45:in `on_ssl_connectfail' SSL session creation with stomp+ssl://mcollective@devops2:6164 failed: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. - connect(2)
+I, [2015-05-14T13:10:02.401367 #2556]  INFO -- : rabbitmq.rb:25:in `on_connectfail' TCP Connection to stomp+ssl://mcollective@devops2:6164 failed on attempt 4
+I, [2015-05-14T13:10:02.565429 #2556]  INFO -- : rabbitmq.rb:35:in `on_ssl_connecting' Establishing SSL session with stomp+ssl://mcollective@devops2:6164
+E, [2015-05-14T13:10:23.602539 #2556] ERROR -- : rabbitmq.rb:45:in `on_ssl_connectfail' SSL session creation with stomp+ssl://mcollective@devops2:6164 failed: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. - connect(2)
+I, [2015-05-14T13:10:23.602539 #2556]  INFO -- : rabbitmq.rb:25:in `on_connectfail' TCP Connection to stomp+ssl://mcollective@devops2:6164 failed on attempt 5
+I, [2015-05-14T13:10:23.922851 #2556]  INFO -- : rabbitmq.rb:35:in `on_ssl_connecting' Establishing SSL session with stomp+ssl://mcollective@devops2:6164
+E, [2015-05-14T13:10:44.943359 #2556] ERROR -- : rabbitmq.rb:45:in `on_ssl_connectfail' SSL session creation with stomp+ssl://mcollective@devops2:6164 failed: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. - connect(2)
+I, [2015-05-14T13:10:44.943359 #2556]  INFO -- : rabbitmq.rb:25:in `on_connectfail' TCP Connection to stomp+ssl://mcollective@devops2:6164 failed on attempt 6
+I, [2015-05-14T13:10:45.583984 #2556]  INFO -- : rabbitmq.rb:35:in `on_ssl_connecting' Establishing SSL session with stomp+ssl://mcollective@devops2:6164
+E, [2015-05-14T13:11:06.609375 #2556] ERROR -- : rabbitmq.rb:45:in `on_ssl_connectfail' SSL session creation with stomp+ssl://mcollective@devops2:6164 failed: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. - connect(2)
+I, [2015-05-14T13:11:06.609375 #2556]  INFO -- : rabbitmq.rb:25:in `on_connectfail' TCP Connection to stomp+ssl://mcollective@devops2:6164 failed on attempt 7
+I, [2015-05-14T13:11:07.890625 #2556]  INFO -- : rabbitmq.rb:35:in `on_ssl_connecting' Establishing SSL session with stomp+ssl://mcollective@devops2:6164
+E, [2015-05-14T13:11:28.923828 #2556] ERROR -- : rabbitmq.rb:45:in `on_ssl_connectfail' SSL session creation with stomp+ssl://mcollective@devops2:6164 failed: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. - connect(2)
+I, [2015-05-14T13:11:28.923828 #2556]  INFO -- : rabbitmq.rb:25:in `on_connectfail' TCP Connection to stomp+ssl://mcollective@devops2:6164 failed on attempt 8
+I, [2015-05-14T13:11:31.486328 #2556]  INFO -- : rabbitmq.rb:35:in `on_ssl_connecting' Establishing SSL session with stomp+ssl://mcollective@devops2:6164
+E, [2015-05-14T13:11:39.342773 #2556] ERROR -- : rabbitmq.rb:45:in `on_ssl_connectfail' SSL session creation with stomp+ssl://mcollective@devops2:6164 failed: An existing connection was forcibly closed by the remote host. - SSL_connect
+I, [2015-05-14T13:11:39.342773 #2556]  INFO -- : rabbitmq.rb:25:in `on_connectfail' TCP Connection to stomp+ssl://mcollective@devops2:6164 failed on attempt 9
+I, [2015-05-14T13:11:44.464843 #2556]  INFO -- : rabbitmq.rb:35:in `on_ssl_connecting' Establishing SSL session with stomp+ssl://mcollective@devops2:6164
+I, [2015-05-14T13:11:47.347656 #2556]  INFO -- : rabbitmq.rb:40:in `on_ssl_connected' SSL session established with stomp+ssl://mcollective@devops2:6164
+I, [2015-05-14T13:11:47.738281 #2556]  INFO -- : rabbitmq.rb:15:in `on_connected' Connected to stomp+ssl://mcollective@devops2:6164
+E, [2015-05-14T13:12:29.570312 #2556] ERROR -- : base.rb:45:in `rescue in block in get_fact' Failed to load facts: NoMethodError: undefined method `split' for nil:NilClass
+E, [2015-05-14T13:17:29.672851 #2556] ERROR -- : base.rb:45:in `rescue in block in get_fact' Failed to load facts: NoMethodError: undefined method `split' for nil:NilClass
+E, [2015-05-14T13:17:30.130859 #2556] ERROR -- : rabbitmq.rb:30:in `on_miscerr' Unexpected error on connection stomp+ssl://mcollective@devops2:6164: es_oldrecv: receive failed: An existing connection was forcibly closed by the remote host.
+I, [2015-05-14T13:17:30.130859 #2556]  INFO -- : rabbitmq.rb:35:in `on_ssl_connecting' Establishing SSL session with stomp+ssl://mcollective@devops2:6164
+E, [2015-05-14T13:18:00.130859 #2556] ERROR -- : rabbitmq.rb:45:in `on_ssl_connectfail' SSL session creation with stomp+ssl://mcollective@devops2:6164 failed: execution expired
+I, [2015-05-14T13:18:00.130859 #2556]  INFO -- : rabbitmq.rb:25:in `on_connectfail' TCP Connection to stomp+ssl://mcollective@devops2:6164 failed on attempt 0
+I, [2015-05-14T13:18:10.373046 #2556]  INFO -- : rabbitmq.rb:35:in `on_ssl_connecting' Establishing SSL session with stomp+ssl://mcollective@devops2:6164
+I, [2015-05-14T13:18:18.399414 #2556]  INFO -- : rabbitmq.rb:40:in `on_ssl_connected' SSL session established with stomp+ssl://mcollective@devops2:6164
+I, [2015-05-14T13:18:19.180664 #2556]  INFO -- : rabbitmq.rb:15:in `on_connected' Connected to stomp+ssl://mcollective@devops2:6164
+E, [2015-05-14T13:22:29.752929 #2556] ERROR -- : base.rb:45:in `rescue in block in get_fact' Failed to load facts: NoMethodError: undefined method `split' for nil:NilClass
+E, [2015-05-14T13:27:29.829101 #2556] ERROR -- : base.rb:45:in `rescue in block in get_fact' Failed to load facts: NoMethodError: undefined method `split' for nil:NilClass
+E, [2015-05-14T13:32:29.904296 #2556] ERROR -- : base.rb:45:in `rescue in block in get_fact' Failed to load facts: NoMethodError: undefined method `split' for nil:NilClass
+E, [2015-05-14T13:37:29.989257 #2556] ERROR -- : base.rb:45:in `rescue in block in get_fact' Failed to load facts: NoMethodError: undefined method `split' for nil:NilClass
+E, [2015-05-14T13:42:30.070312 #2556] ERROR -- : base.rb:45:in `rescue in block in get_fact' Failed to load facts: NoMethodError: undefined method `split' for nil:NilClass
+E, [2015-05-14T13:47:30.151367 #2556] ERROR -- : base.rb:45:in `rescue in block in get_fact' Failed to load facts: NoMethodError: undefined method `split' for nil:NilClass
+E, [2015-05-14T13:52:30.240234 #2556] ERROR -- : base.rb:45:in `rescue in block in get_fact' Failed to load facts: NoMethodError: undefined method `split' for nil:NilClass
+E, [2015-05-14T13:53:39.512695 #2556] ERROR -- : rabbitmq.rb:30:in `on_miscerr' Unexpected error on connection stomp+ssl://mcollective@devops2:6164: es_oldrecv: receive failed: An existing connection was forcibly closed by the remote host.
+I, [2015-05-14T13:53:39.512695 #2556]  INFO -- : rabbitmq.rb:35:in `on_ssl_connecting' Establishing SSL session with stomp+ssl://mcollective@devops2:6164
+I, [2015-05-14T13:53:41.568359 #2556]  INFO -- : rabbitmq.rb:40:in `on_ssl_connected' SSL session established with stomp+ssl://mcollective@devops2:6164
+I, [2015-05-14T13:53:41.966796 #2556]  INFO -- : rabbitmq.rb:15:in `on_connected' Connected to stomp+ssl://mcollective@devops2:6164
+E, [2015-05-14T13:57:30.320312 #2556] ERROR -- : base.rb:45:in `rescue in block in get_fact' Failed to load facts: NoMethodError: undefined method `split' for nil:NilClass
+E, [2015-05-14T14:02:30.403320 #2556] ERROR -- : base.rb:45:in `rescue in block in get_fact' Failed to load facts: NoMethodError: undefined method `split' for nil:NilClass
+E, [2015-05-14T14:07:30.480468 #2556] ERROR -- : base.rb:45:in `rescue in block in get_fact' Failed to load facts: NoMethodError: undefined method `split' for nil:NilClass
+E, [2015-05-14T14:12:30.566406 #2556] ERROR -- : base.rb:45:in `rescue in block in get_fact' Failed to load facts: NoMethodError: undefined method `split' for nil:NilClass
+E, [2015-05-14T14:17:30.658203 #2556] ERROR -- : base.rb:45:in `rescue in block in get_fact' Failed to load facts: NoMethodError: undefined method `split' for nil:NilClass
+E, [2015-05-14T14:22:30.732421 #2556] ERROR -- : base.rb:45:in `rescue in block in get_fact' Failed to load facts: NoMethodError: undefined method `split' for nil:NilClass
+E, [2015-05-14T14:27:30.811523 #2556] ERROR -- : base.rb:45:in `rescue in block in get_fact' Failed to load facts: NoMethodError: undefined method `split' for nil:NilClass
+E, [2015-05-14T14:32:30.903320 #2556] ERROR -- : base.rb:45:in `rescue in block in get_fact' Failed to load facts: NoMethodError: undefined method `split' for nil:NilClass
+E, [2015-05-14T14:37:30.987304 #2556] ERROR -- : base.rb:45:in `rescue in block in get_fact' Failed to load facts: NoMethodError: undefined method `split' for nil:NilClass
+E, [2015-05-14T14:42:31.071289 #2556] ERROR -- : base.rb:45:in `rescue in block in get_fact' Failed to load facts: NoMethodError: undefined method `split' for nil:NilClass
+I, [2015-05-14T14:42:46.395507 #2556]  INFO -- : windows_daemon.rb:31:in `service_stop' Windows service stopping
+I, [2015-05-14T14:42:48.362304 #3508]  INFO -- : config.rb:167:in `loadconfig' The Marionette Collective version 2.8.1 started by C:/marionette-collective/bin/mcollectived using config file C:\marionette-collective\etc\server.cfg
+I, [2015-05-14T14:42:48.363281 #3508]  INFO -- : mcollectived:64:in `<main>' The Marionette Collective 2.8.1 started logging at info level
+I, [2015-05-14T14:42:52.436523 #3508]  INFO -- : rabbitmq.rb:106:in `initialize' RabbitMQ connector initialized.  Using stomp-gem 1.3.4
+I, [2015-05-14T14:42:52.436523 #3508]  INFO -- : rabbitmq.rb:201:in `connection_headers' Connecting without STOMP 1.1 heartbeats, consider setting plugin.rabbitmq.heartbeat_interval
+I, [2015-05-14T14:42:53.761718 #3508]  INFO -- : rabbitmq.rb:35:in `on_ssl_connecting' Establishing SSL session with stomp+ssl://mcollective@devops2:6164
+I, [2015-05-14T14:42:55.866210 #3508]  INFO -- : rabbitmq.rb:40:in `on_ssl_connected' SSL session established with stomp+ssl://mcollective@devops2:6164
+I, [2015-05-14T14:42:56.265625 #3508]  INFO -- : rabbitmq.rb:15:in `on_connected' Connected to stomp+ssl://mcollective@devops2:6164
+E, [2015-05-14T14:42:56.289062 #3508] ERROR -- : base.rb:45:in `rescue in block in get_fact' Failed to load facts: NoMethodError: undefined method `split' for nil:NilClass
+I, [2015-05-14T14:46:43.775390 #3508]  INFO -- : windows_daemon.rb:31:in `service_stop' Windows service stopping
+I, [2015-05-14T14:46:45.750976 #3812]  INFO -- : config.rb:167:in `loadconfig' The Marionette Collective version 2.8.1 started by C:/marionette-collective/bin/mcollectived using config file C:\marionette-collective\etc\server.cfg
+I, [2015-05-14T14:46:45.751953 #3812]  INFO -- : mcollectived:64:in `<main>' The Marionette Collective 2.8.1 started logging at info level
+I, [2015-05-14T14:46:49.815429 #3812]  INFO -- : rabbitmq.rb:106:in `initialize' RabbitMQ connector initialized.  Using stomp-gem 1.3.4
+I, [2015-05-14T14:46:49.815429 #3812]  INFO -- : rabbitmq.rb:201:in `connection_headers' Connecting without STOMP 1.1 heartbeats, consider setting plugin.rabbitmq.heartbeat_interval
+I, [2015-05-14T14:46:51.126953 #3812]  INFO -- : rabbitmq.rb:35:in `on_ssl_connecting' Establishing SSL session with stomp+ssl://mcollective@devops2:6164
+I, [2015-05-14T14:46:52.990234 #3812]  INFO -- : rabbitmq.rb:40:in `on_ssl_connected' SSL session established with stomp+ssl://mcollective@devops2:6164
+I, [2015-05-14T14:46:53.412109 #3812]  INFO -- : rabbitmq.rb:15:in `on_connected' Connected to stomp+ssl://mcollective@devops2:6164
+E, [2015-05-14T14:46:53.458984 #3812] ERROR -- : agents.rb:71:in `rescue in loadagent' Loading agent puppet failed: Could not create instance of plugin MCollective::Agent::Puppet: cannot load such file -- puppet
+E, [2015-05-14T14:46:53.482421 #3812] ERROR -- : base.rb:45:in `rescue in block in get_fact' Failed to load facts: NoMethodError: undefined method `split' for nil:NilClass
+I, [2015-05-14T14:50:45.621093 #3812]  INFO -- : windows_daemon.rb:31:in `service_stop' Windows service stopping
+I, [2015-05-14T14:50:47.492187 #5448]  INFO -- : config.rb:167:in `loadconfig' The Marionette Collective version 2.8.1 started by C:/marionette-collective/bin/mcollectived using config file C:\marionette-collective\etc\server.cfg
+I, [2015-05-14T14:50:47.493164 #5448]  INFO -- : mcollectived:64:in `<main>' The Marionette Collective 2.8.1 started logging at info level
+I, [2015-05-14T14:50:51.555664 #5448]  INFO -- : rabbitmq.rb:106:in `initialize' RabbitMQ connector initialized.  Using stomp-gem 1.3.4
+I, [2015-05-14T14:50:51.555664 #5448]  INFO -- : rabbitmq.rb:201:in `connection_headers' Connecting without STOMP 1.1 heartbeats, consider setting plugin.rabbitmq.heartbeat_interval
+I, [2015-05-14T14:50:53.052734 #5448]  INFO -- : rabbitmq.rb:35:in `on_ssl_connecting' Establishing SSL session with stomp+ssl://mcollective@devops2:6164
+I, [2015-05-14T14:50:55.355468 #5448]  INFO -- : rabbitmq.rb:40:in `on_ssl_connected' SSL session established with stomp+ssl://mcollective@devops2:6164
+I, [2015-05-14T14:50:55.774414 #5448]  INFO -- : rabbitmq.rb:15:in `on_connected' Connected to stomp+ssl://mcollective@devops2:6164
+E, [2015-05-14T14:50:55.828125 #5448] ERROR -- : agents.rb:71:in `rescue in loadagent' Loading agent puppet failed: Could not create instance of plugin MCollective::Agent::Puppet: cannot load such file -- puppet
+E, [2015-05-14T14:50:55.853515 #5448] ERROR -- : base.rb:45:in `rescue in block in get_fact' Failed to load facts: NoMethodError: undefined method `split' for nil:NilClass
+E, [2015-05-14T14:55:55.941406 #5448] ERROR -- : base.rb:45:in `rescue in block in get_fact' Failed to load facts: NoMethodError: undefined method `split' for nil:NilClass
+E, [2015-05-14T15:00:56.100585 #5448] ERROR -- : base.rb:45:in `rescue in block in get_fact' Failed to load facts: NoMethodError: undefined method `split' for nil:NilClass
+E, [2015-05-14T15:05:56.291992 #5448] ERROR -- : base.rb:45:in `rescue in block in get_fact' Failed to load facts: NoMethodError: undefined method `split' for nil:NilClass
+E, [2015-05-14T15:10:56.580078 #5448] ERROR -- : base.rb:45:in `rescue in block in get_fact' Failed to load facts: NoMethodError: undefined method `split' for nil:NilClass
+E, [2015-05-14T15:15:56.668945 #5448] ERROR -- : base.rb:45:in `rescue in block in get_fact' Failed to load facts: NoMethodError: undefined method `split' for nil:NilClass
+I, [2015-05-14T15:17:45.187500 #5448]  INFO -- : windows_daemon.rb:31:in `service_stop' Windows service stopping
+E, [2015-05-14T15:17:49.818359 #4468] ERROR -- : pluginmanager.rb:171:in `rescue in loadclass' Failed to load Mcollective::Facts::Facter_facts: cannot load such file -- mcollective/facts/facter_facts.rb
+I, [2015-05-14T15:18:50.458007 #5492]  INFO -- : config.rb:167:in `loadconfig' The Marionette Collective version 2.8.1 started by C:/marionette-collective/bin/mcollectived using config file C:\marionette-collective\etc\server.cfg
+I, [2015-05-14T15:18:50.458007 #5492]  INFO -- : mcollectived:64:in `<main>' The Marionette Collective 2.8.1 started logging at info level
+I, [2015-05-14T15:18:54.787109 #5492]  INFO -- : rabbitmq.rb:106:in `initialize' RabbitMQ connector initialized.  Using stomp-gem 1.3.4
+I, [2015-05-14T15:18:55.058593 #5492]  INFO -- : rabbitmq.rb:201:in `connection_headers' Connecting without STOMP 1.1 heartbeats, consider setting plugin.rabbitmq.heartbeat_interval
+I, [2015-05-14T15:18:57.512695 #5492]  INFO -- : rabbitmq.rb:35:in `on_ssl_connecting' Establishing SSL session with stomp+ssl://mcollective@devops2:6164
+I, [2015-05-14T15:18:59.634765 #5492]  INFO -- : rabbitmq.rb:40:in `on_ssl_connected' SSL session established with stomp+ssl://mcollective@devops2:6164
+I, [2015-05-14T15:19:00.086914 #5492]  INFO -- : rabbitmq.rb:15:in `on_connected' Connected to stomp+ssl://mcollective@devops2:6164
+I, [2015-05-14T15:20:08.435546 #5492]  INFO -- : facter_facts.rb:24:in `load_facts_from_source' Loaded 51 facts from Facter
+I, [2015-05-14T15:30:14.717773 #5492]  INFO -- : facter_facts.rb:24:in `load_facts_from_source' Loaded 51 facts from Facter
+I, [2015-05-14T15:39:08.934570 #5492]  INFO -- : windows_daemon.rb:31:in `service_stop' Windows service stopping
+I, [2015-05-14T15:39:11.681640 #5320]  INFO -- : config.rb:167:in `loadconfig' The Marionette Collective version 2.8.1 started by C:/marionette-collective/bin/mcollectived using config file C:\marionette-collective\etc\server.cfg
+I, [2015-05-14T15:39:11.681640 #5320]  INFO -- : mcollectived:64:in `<main>' The Marionette Collective 2.8.1 started logging at info level
+I, [2015-05-14T15:39:15.721679 #5320]  INFO -- : rabbitmq.rb:106:in `initialize' RabbitMQ connector initialized.  Using stomp-gem 1.3.4
+I, [2015-05-14T15:39:15.721679 #5320]  INFO -- : rabbitmq.rb:201:in `connection_headers' Connecting without STOMP 1.1 heartbeats, consider setting plugin.rabbitmq.heartbeat_interval
+I, [2015-05-14T15:39:16.885742 #5320]  INFO -- : rabbitmq.rb:35:in `on_ssl_connecting' Establishing SSL session with stomp+ssl://mcollective@devops2:6164
+I, [2015-05-14T15:39:18.622070 #5320]  INFO -- : rabbitmq.rb:40:in `on_ssl_connected' SSL session established with stomp+ssl://mcollective@devops2:6164
+I, [2015-05-14T15:39:19.153320 #5320]  INFO -- : rabbitmq.rb:15:in `on_connected' Connected to stomp+ssl://mcollective@devops2:6164
+I, [2015-05-14T15:39:27.299804 #5320]  INFO -- : facter_facts.rb:24:in `load_facts_from_source' Loaded 51 facts from Facter
+I, [2015-05-14T15:48:04.888671 #5320]  INFO -- : windows_daemon.rb:31:in `service_stop' Windows service stopping
+I, [2015-05-14T15:48:06.770507 #4304]  INFO -- : config.rb:167:in `loadconfig' The Marionette Collective version 2.8.1 started by C:/marionette-collective/bin/mcollectived using config file C:\marionette-collective\etc\server.cfg
+I, [2015-05-14T15:48:06.770507 #4304]  INFO -- : mcollectived:64:in `<main>' The Marionette Collective 2.8.1 started logging at info level
+I, [2015-05-14T15:48:10.797851 #4304]  INFO -- : rabbitmq.rb:106:in `initialize' RabbitMQ connector initialized.  Using stomp-gem 1.3.4
+I, [2015-05-14T15:48:10.797851 #4304]  INFO -- : rabbitmq.rb:201:in `connection_headers' Connecting without STOMP 1.1 heartbeats, consider setting plugin.rabbitmq.heartbeat_interval
+I, [2015-05-14T15:48:11.944335 #4304]  INFO -- : rabbitmq.rb:35:in `on_ssl_connecting' Establishing SSL session with stomp+ssl://mcollective@devops2:6164
+I, [2015-05-14T15:48:13.639648 #4304]  INFO -- : rabbitmq.rb:40:in `on_ssl_connected' SSL session established with stomp+ssl://mcollective@devops2:6164
+I, [2015-05-14T15:48:14.030273 #4304]  INFO -- : rabbitmq.rb:15:in `on_connected' Connected to stomp+ssl://mcollective@devops2:6164
+I, [2015-05-14T15:48:21.145507 #4304]  INFO -- : facter_facts.rb:24:in `load_facts_from_source' Loaded 51 facts from Facter
+I, [2015-05-14T15:58:26.144531 #4304]  INFO -- : facter_facts.rb:24:in `load_facts_from_source' Loaded 51 facts from Facter
+E, [2015-05-14T16:04:29.845703 #4304] ERROR -- : agent.rb:108:in `rescue in handlemsg' service#status failed: Puppet::Error: Cannot get status of apache2, error was: The specified service does not exist as an installed service. - OpenService: The specified service does not exist as an installed service.
+E, [2015-05-14T16:04:29.845703 #4304] ERROR -- : agent.rb:109:in `rescue in handlemsg' C:/Ruby193/lib/ruby/gems/1.9.1/gems/puppet-4.0.0-x86-mingw32/lib/puppet/provider/service/windows.rb:99:in `rescue in status'
+	C:/Ruby193/lib/ruby/gems/1.9.1/gems/puppet-4.0.0-x86-mingw32/lib/puppet/provider/service/windows.rb:88:in `status'
+	C:/marionette-collective/lib/mcollective/util/service/puppetservice.rb:30:in `status'
+	C:/marionette-collective/lib/mcollective/agent/service.rb:59:in `do_service_action'
+	C:/marionette-collective/lib/mcollective/agent/service.rb:32:in `block in <class:Service>'
+	C:/marionette-collective/lib/mcollective/rpc/agent.rb:86:in `handlemsg'
+	C:/marionette-collective/lib/mcollective/agents.rb:126:in `block (2 levels) in dispatch'
+	C:/Ruby193/lib/ruby/1.9.1/timeout.rb:69:in `timeout'
+	C:/marionette-collective/lib/mcollective/agents.rb:125:in `block in dispatch'
+	C:/Ruby193/lib/ruby/1.9.1/win32ole.rb:13:in `call'
+	C:/Ruby193/lib/ruby/1.9.1/win32ole.rb:13:in `block in initialize'
+E, [2015-05-14T16:05:06.286132 #4304] ERROR -- : agent.rb:108:in `rescue in handlemsg' service#status failed: Puppet::Error: Cannot get status of mcollective, error was: The specified service does not exist as an installed service. - OpenService: The specified service does not exist as an installed service.
+E, [2015-05-14T16:05:06.286132 #4304] ERROR -- : agent.rb:109:in `rescue in handlemsg' C:/Ruby193/lib/ruby/gems/1.9.1/gems/puppet-4.0.0-x86-mingw32/lib/puppet/provider/service/windows.rb:99:in `rescue in status'
+	C:/Ruby193/lib/ruby/gems/1.9.1/gems/puppet-4.0.0-x86-mingw32/lib/puppet/provider/service/windows.rb:88:in `status'
+	C:/marionette-collective/lib/mcollective/util/service/puppetservice.rb:30:in `status'
+	C:/marionette-collective/lib/mcollective/agent/service.rb:59:in `do_service_action'
+	C:/marionette-collective/lib/mcollective/agent/service.rb:32:in `block in <class:Service>'
+	C:/marionette-collective/lib/mcollective/rpc/agent.rb:86:in `handlemsg'
+	C:/marionette-collective/lib/mcollective/agents.rb:126:in `block (2 levels) in dispatch'
+	C:/Ruby193/lib/ruby/1.9.1/timeout.rb:69:in `timeout'
+	C:/marionette-collective/lib/mcollective/agents.rb:125:in `block in dispatch'
+	C:/Ruby193/lib/ruby/1.9.1/win32ole.rb:13:in `call'
+	C:/Ruby193/lib/ruby/1.9.1/win32ole.rb:13:in `block in initialize'
+E, [2015-05-14T16:06:13.169921 #4304] ERROR -- : agent.rb:108:in `rescue in handlemsg' service#status failed: Puppet::Error: Cannot get status of mcollective, error was: The specified service does not exist as an installed service. - OpenService: The specified service does not exist as an installed service.
+E, [2015-05-14T16:06:13.169921 #4304] ERROR -- : agent.rb:109:in `rescue in handlemsg' C:/Ruby193/lib/ruby/gems/1.9.1/gems/puppet-4.0.0-x86-mingw32/lib/puppet/provider/service/windows.rb:99:in `rescue in status'
+	C:/Ruby193/lib/ruby/gems/1.9.1/gems/puppet-4.0.0-x86-mingw32/lib/puppet/provider/service/windows.rb:88:in `status'
+	C:/marionette-collective/lib/mcollective/util/service/puppetservice.rb:30:in `status'
+	C:/marionette-collective/lib/mcollective/agent/service.rb:59:in `do_service_action'
+	C:/marionette-collective/lib/mcollective/agent/service.rb:32:in `block in <class:Service>'
+	C:/marionette-collective/lib/mcollective/rpc/agent.rb:86:in `handlemsg'
+	C:/marionette-collective/lib/mcollective/agents.rb:126:in `block (2 levels) in dispatch'
+	C:/Ruby193/lib/ruby/1.9.1/timeout.rb:69:in `timeout'
+	C:/marionette-collective/lib/mcollective/agents.rb:125:in `block in dispatch'
+	C:/Ruby193/lib/ruby/1.9.1/win32ole.rb:13:in `call'
+	C:/Ruby193/lib/ruby/1.9.1/win32ole.rb:13:in `block in initialize'
+E, [2015-05-14T16:06:34.545898 #4304] ERROR -- : agent.rb:108:in `rescue in handlemsg' service#status failed: Puppet::Error: Cannot get status of mcollective, error was: The specified service does not exist as an installed service. - OpenService: The specified service does not exist as an installed service.
+E, [2015-05-14T16:06:34.545898 #4304] ERROR -- : agent.rb:109:in `rescue in handlemsg' C:/Ruby193/lib/ruby/gems/1.9.1/gems/puppet-4.0.0-x86-mingw32/lib/puppet/provider/service/windows.rb:99:in `rescue in status'
+	C:/Ruby193/lib/ruby/gems/1.9.1/gems/puppet-4.0.0-x86-mingw32/lib/puppet/provider/service/windows.rb:88:in `status'
+	C:/marionette-collective/lib/mcollective/util/service/puppetservice.rb:30:in `status'
+	C:/marionette-collective/lib/mcollective/agent/service.rb:59:in `do_service_action'
+	C:/marionette-collective/lib/mcollective/agent/service.rb:32:in `block in <class:Service>'
+	C:/marionette-collective/lib/mcollective/rpc/agent.rb:86:in `handlemsg'
+	C:/marionette-collective/lib/mcollective/agents.rb:126:in `block (2 levels) in dispatch'
+	C:/Ruby193/lib/ruby/1.9.1/timeout.rb:69:in `timeout'
+	C:/marionette-collective/lib/mcollective/agents.rb:125:in `block in dispatch'
+	C:/Ruby193/lib/ruby/1.9.1/win32ole.rb:13:in `call'
+	C:/Ruby193/lib/ruby/1.9.1/win32ole.rb:13:in `block in initialize'
+E, [2015-05-14T16:06:56.349609 #4304] ERROR -- : agent.rb:108:in `rescue in handlemsg' service#status failed: Puppet::Error: Cannot get status of ssh, error was: The specified service does not exist as an installed service. - OpenService: The specified service does not exist as an installed service.
+E, [2015-05-14T16:06:56.349609 #4304] ERROR -- : agent.rb:109:in `rescue in handlemsg' C:/Ruby193/lib/ruby/gems/1.9.1/gems/puppet-4.0.0-x86-mingw32/lib/puppet/provider/service/windows.rb:99:in `rescue in status'
+	C:/Ruby193/lib/ruby/gems/1.9.1/gems/puppet-4.0.0-x86-mingw32/lib/puppet/provider/service/windows.rb:88:in `status'
+	C:/marionette-collective/lib/mcollective/util/service/puppetservice.rb:30:in `status'
+	C:/marionette-collective/lib/mcollective/agent/service.rb:59:in `do_service_action'
+	C:/marionette-collective/lib/mcollective/agent/service.rb:32:in `block in <class:Service>'
+	C:/marionette-collective/lib/mcollective/rpc/agent.rb:86:in `handlemsg'
+	C:/marionette-collective/lib/mcollective/agents.rb:126:in `block (2 levels) in dispatch'
+	C:/Ruby193/lib/ruby/1.9.1/timeout.rb:69:in `timeout'
+	C:/marionette-collective/lib/mcollective/agents.rb:125:in `block in dispatch'
+	C:/Ruby193/lib/ruby/1.9.1/win32ole.rb:13:in `call'
+	C:/Ruby193/lib/ruby/1.9.1/win32ole.rb:13:in `block in initialize'
+E, [2015-05-14T16:07:20.314453 #4304] ERROR -- : agent.rb:108:in `rescue in handlemsg' service#status failed: Puppet::Error: Cannot get status of ssh, error was: The specified service does not exist as an installed service. - OpenService: The specified service does not exist as an installed service.
+E, [2015-05-14T16:07:20.314453 #4304] ERROR -- : agent.rb:109:in `rescue in handlemsg' C:/Ruby193/lib/ruby/gems/1.9.1/gems/puppet-4.0.0-x86-mingw32/lib/puppet/provider/service/windows.rb:99:in `rescue in status'
+	C:/Ruby193/lib/ruby/gems/1.9.1/gems/puppet-4.0.0-x86-mingw32/lib/puppet/provider/service/windows.rb:88:in `status'
+	C:/marionette-collective/lib/mcollective/util/service/puppetservice.rb:30:in `status'
+	C:/marionette-collective/lib/mcollective/agent/service.rb:59:in `do_service_action'
+	C:/marionette-collective/lib/mcollective/agent/service.rb:32:in `block in <class:Service>'
+	C:/marionette-collective/lib/mcollective/rpc/agent.rb:86:in `handlemsg'
+	C:/marionette-collective/lib/mcollective/agents.rb:126:in `block (2 levels) in dispatch'
+	C:/Ruby193/lib/ruby/1.9.1/timeout.rb:69:in `timeout'
+	C:/marionette-collective/lib/mcollective/agents.rb:125:in `block in dispatch'
+	C:/Ruby193/lib/ruby/1.9.1/win32ole.rb:13:in `call'
+	C:/Ruby193/lib/ruby/1.9.1/win32ole.rb:13:in `block in initialize'
+I, [2015-05-14T16:08:31.473632 #4304]  INFO -- : facter_facts.rb:24:in `load_facts_from_source' Loaded 51 facts from Facter
+I, [2015-05-14T16:09:32.796875 #4304]  INFO -- : windows_daemon.rb:31:in `service_stop' Windows service stopping
+I, [2015-05-14T16:09:34.667968 #6496]  INFO -- : config.rb:167:in `loadconfig' The Marionette Collective version 2.8.1 started by C:/marionette-collective/bin/mcollectived using config file C:\marionette-collective\etc\server.cfg
+I, [2015-05-14T16:09:34.667968 #6496]  INFO -- : mcollectived:64:in `<main>' The Marionette Collective 2.8.1 started logging at info level
+I, [2015-05-14T16:09:38.700195 #6496]  INFO -- : rabbitmq.rb:106:in `initialize' RabbitMQ connector initialized.  Using stomp-gem 1.3.4
+I, [2015-05-14T16:09:38.700195 #6496]  INFO -- : rabbitmq.rb:201:in `connection_headers' Connecting without STOMP 1.1 heartbeats, consider setting plugin.rabbitmq.heartbeat_interval
+I, [2015-05-14T16:09:39.786132 #6496]  INFO -- : rabbitmq.rb:35:in `on_ssl_connecting' Establishing SSL session with stomp+ssl://mcollective@devops2:6164
+E, [2015-05-14T16:09:45.790039 #6496] ERROR -- : rabbitmq.rb:45:in `on_ssl_connectfail' SSL session creation with stomp+ssl://mcollective@devops2:6164 failed: SSL_connect SYSCALL returned=5 errno=0 state=SSLv3 read finished A
+I, [2015-05-14T16:09:45.805664 #6496]  INFO -- : rabbitmq.rb:25:in `on_connectfail' TCP Connection to stomp+ssl://mcollective@devops2:6164 failed on attempt 0
+I, [2015-05-14T16:09:45.821289 #6496]  INFO -- : rabbitmq.rb:35:in `on_ssl_connecting' Establishing SSL session with stomp+ssl://mcollective@devops2:6164
+I, [2015-05-14T16:09:47.808593 #6496]  INFO -- : rabbitmq.rb:40:in `on_ssl_connected' SSL session established with stomp+ssl://mcollective@devops2:6164
+I, [2015-05-14T16:09:48.792968 #6496]  INFO -- : rabbitmq.rb:15:in `on_connected' Connected to stomp+ssl://mcollective@devops2:6164
+I, [2015-05-14T16:09:54.791992 #6496]  INFO -- : facter_facts.rb:24:in `load_facts_from_source' Loaded 51 facts from Facter
+I, [2015-05-14T16:19:59.960937 #6496]  INFO -- : facter_facts.rb:24:in `load_facts_from_source' Loaded 51 facts from Facter
+I, [2015-05-14T16:22:17.115234 #6496]  INFO -- : windows_daemon.rb:31:in `service_stop' Windows service stopping
+I, [2015-05-14T16:22:18.899414 #6220]  INFO -- : config.rb:167:in `loadconfig' The Marionette Collective version 2.8.1 started by C:/marionette-collective/bin/mcollectived using config file C:\marionette-collective\etc\server.cfg
+I, [2015-05-14T16:22:18.899414 #6220]  INFO -- : mcollectived:64:in `<main>' The Marionette Collective 2.8.1 started logging at info level
+I, [2015-05-14T16:22:22.915039 #6220]  INFO -- : rabbitmq.rb:106:in `initialize' RabbitMQ connector initialized.  Using stomp-gem 1.3.4
+I, [2015-05-14T16:22:22.915039 #6220]  INFO -- : rabbitmq.rb:201:in `connection_headers' Connecting without STOMP 1.1 heartbeats, consider setting plugin.rabbitmq.heartbeat_interval
+I, [2015-05-14T16:22:24.017578 #6220]  INFO -- : rabbitmq.rb:35:in `on_ssl_connecting' Establishing SSL session with stomp+ssl://mcollective@devops2:6164
+I, [2015-05-14T16:22:27.183593 #6220]  INFO -- : rabbitmq.rb:40:in `on_ssl_connected' SSL session established with stomp+ssl://mcollective@devops2:6164
+I, [2015-05-14T16:22:27.699218 #6220]  INFO -- : rabbitmq.rb:15:in `on_connected' Connected to stomp+ssl://mcollective@devops2:6164
+I, [2015-05-14T16:22:34.078125 #6220]  INFO -- : facter_facts.rb:24:in `load_facts_from_source' Loaded 51 facts from Facter
+I, [2015-05-14T16:32:39.279296 #6220]  INFO -- : facter_facts.rb:24:in `load_facts_from_source' Loaded 51 facts from Facter
+I, [2015-05-14T16:42:44.783203 #6220]  INFO -- : facter_facts.rb:24:in `load_facts_from_source' Loaded 51 facts from Facter
